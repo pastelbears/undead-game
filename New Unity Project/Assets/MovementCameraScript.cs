@@ -18,7 +18,7 @@ public class MovementCameraScript : MonoBehaviour
     public float sensitivity = 1;
     public float MaxAngle = 30;
     public float xRn=0, yRn =0;
-    private CharacterController Cc;
+    public CharacterController Cc;
     public float Gravity = -0.3f;
     public float vGravity = 0;
     public float DelayBeforeJump = 1;
