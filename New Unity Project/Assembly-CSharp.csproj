@@ -36,10 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\BagPointingScript.cs" />
-     <Compile Include="Assets\ITEM_PROP.cs" />
-     <Compile Include="Assets\MovementCameraScript.cs" />
-     <Compile Include="Assets\ObjPickDrop.cs" />
+     <Compile Include="Assets\SCRIPTS\BagPointingScript.cs" />
+     <Compile Include="Assets\SCRIPTS\ITEM_PROP.cs" />
+     <Compile Include="Assets\SCRIPTS\MovementCameraScript.cs" />
+     <Compile Include="Assets\SCRIPTS\ObjPickDrop.cs" />
+     <Compile Include="Assets\SCRIPTS\TabarCode.cs" />
      <None Include="Assets\NewSurfaceShader.shader" />
     <Reference Include="UnityEngine">
         <HintPath>F:/House/Games/unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

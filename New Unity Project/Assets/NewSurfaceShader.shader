@@ -9,16 +9,15 @@
     }
     SubShader
     {
-         Cull Off
- Pass{
-     ZTest Greater
-     }
- Pass{
-     ZTest Less
- }
- Pass{
-     ZTest Always
- }
+        Pass 
+         {
+             ZTest Less
+         }
+        Pass
+         {
+             ZTest Greater
+         }
+         
         Tags { "RenderType"="Opaque" }
         LOD 200
 
