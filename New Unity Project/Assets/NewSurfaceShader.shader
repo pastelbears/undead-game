@@ -9,18 +9,17 @@
     }
     SubShader
     {
-        Pass 
-         {
-             ZTest Less
-         }
-        Pass
-         {
-             ZTest Greater
-         }
-         
-        Tags { "RenderType"="Opaque" }
+        //--
+        Tags { "RenderType"="Opaque" "DisableBatching"="True" }
         LOD 200
-
+        //pass{
+        //    ZTest LEqual
+        //}
+        //pass{
+        //    ZTest Greater
+        //}
+        //
+        
         CGPROGRAM
         // Physically based Standard lighting model, and enable shadows on all light types
         #pragma surface surf Standard fullforwardshadows

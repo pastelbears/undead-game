@@ -37,10 +37,16 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\SCRIPTS\BagPointingScript.cs" />
+     <Compile Include="Assets\SCRIPTS\BulletScript.cs" />
+     <Compile Include="Assets\SCRIPTS\ENVIRONMENT\BALLOON_SPAWNER.cs" />
+     <Compile Include="Assets\SCRIPTS\ENVIRONMENT\BalloonCode.cs" />
+     <Compile Include="Assets\SCRIPTS\HEALTH.cs" />
      <Compile Include="Assets\SCRIPTS\ITEM_PROP.cs" />
      <Compile Include="Assets\SCRIPTS\MovementCameraScript.cs" />
+     <Compile Include="Assets\SCRIPTS\OFFSETS_PROP.cs" />
      <Compile Include="Assets\SCRIPTS\ObjPickDrop.cs" />
-     <Compile Include="Assets\SCRIPTS\TabarCode.cs" />
+     <Compile Include="Assets\SCRIPTS\WEAPON SCRIPTS\AK47Code.cs" />
+     <Compile Include="Assets\SCRIPTS\WEAPON SCRIPTS\TabarCode.cs" />
      <None Include="Assets\NewSurfaceShader.shader" />
     <Reference Include="UnityEngine">
         <HintPath>F:/House/Games/unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
